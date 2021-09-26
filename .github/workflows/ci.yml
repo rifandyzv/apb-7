@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [14.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -30,9 +30,6 @@ jobs:
         
     - name: Install Dependencies
       run: npm install
-      
-    - name: Run the tests & generate coverage report
-      run: npm test -- --coverage
       
     - name: Build
       run: npm run build
