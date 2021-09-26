@@ -178,6 +178,28 @@ h1 {
   bottom: 35%;
 }
 
+#day-7 {
+  width: 20vw;
+  left: 4%;
+  top: 4vw;
+  padding: 1.5vw 0 1vw 2.5vw;
+}
+
+#day-counter-7 {
+  top: 5vw;
+}
+
+#day-8 {
+  width: 20vw;
+  right: 8%;
+  top: 23vw;
+  padding: 1.5vw 0 1vw 2.5vw;
+}
+
+#day-counter-8 {
+  top: 24vw;
+}
+
 #day-9 {
   padding: 1vw 2vw;
   width: 25vw;

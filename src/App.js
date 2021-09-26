@@ -156,10 +156,17 @@ function App() {
 
       {/* Day 7 - Day 8 */}
       <section>
-        <div className="content">
-          {/* <h1>asdasd</h1>
-          <p>asdw</p>
-          content disini */}
+        <h2 className="day-counter" id="day-counter-7">
+          Day 7
+        </h2>
+        <div className="text-box" id="day-7">
+          Tubes
+        </div>
+        <h2 className="day-counter" id="day-counter-8">
+          Day 8
+        </h2>
+        <div className="text-box" id="day-8">
+          Asistensi
         </div>
         <img
           src={`${process.env.PUBLIC_URL}/assets/day7-8.png`}
