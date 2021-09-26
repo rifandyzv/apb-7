@@ -1,4 +1,10 @@
-import './App.css'
+import "./App.css";
+
+const FORM_LINK = "https://google.com";
+const INSTAGRAM_LINK = "https://www.instagram.com";
+const WA_LINK = "https://whatsapp.com";
+const LINE_LINK = "https://line.me";
+const MAIL_LINK = "mailto:person@example.com";
 
 function App() {
   return (
@@ -160,18 +166,75 @@ function App() {
 
       {/* Day 9 - bawah*/}
       <section>
-        <div className="content">
-          {/* <h1>asdasd</h1>
-          <p>asdw</p>
-          content disini */}
+        <h2 className="day-counter" id="day-counter-9">
+          Day 9
+        </h2>
+        <div className="text-box" id="day-9">
+          <ol>
+            <li>Presentasi Tubes</li>
+            <li>Awarding Night</li>
+            <li>Penutupan</li>
+          </ol>
         </div>
+        <div className="button-container bottom-daftar-btn">
+          <a className="btn" href={FORM_LINK}>
+            Daftar
+          </a>
+        </div>
+
         <img
           src={`${process.env.PUBLIC_URL}/assets/day-9.png`}
           alt="Background Section 7"
         />
       </section>
+
+      <footer>
+        <div className="contact">
+          <h2>Contact Us</h2>
+          <div className="contact-icon">
+            <a href={INSTAGRAM_LINK}>
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/instagram.svg`}
+                alt="Logo APB"
+                id="instagram-logo"
+              />
+            </a>
+            <a href={WA_LINK}>
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/whatsapp.svg`}
+                alt="Logo APB"
+                id="wa-logo"
+              />
+            </a>
+            <a href={LINE_LINK}>
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/line.svg`}
+                alt="Logo APB"
+                id="line-logo"
+              />
+            </a>
+            <a href={MAIL_LINK}>
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/mail.svg`}
+                alt="Logo APB"
+                id="mail-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="logo">
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/APB Logo.png`}
+            alt="Logo APB"
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/STEI-HMIF-ITB-300x200 1.png`}
+            alt="Logo HMIF ITB"
+          />
+        </div>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

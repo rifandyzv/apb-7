@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&family=Press+Start+2P&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
 }
 
 img {
@@ -42,12 +42,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   margin-left: 2em;
 }
 
 h1 {
   /* box-shadow: 0px 0px 0px 4px white; */
+}
+
+.App {
+  position: relative;
 }
 
 .section2-header {
@@ -78,6 +82,16 @@ h1 {
   line-height: 2.5vw;
   font-size: 1.6vw;
   letter-spacing: 0.8px;
+}
+
+.button-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-daftar-btn {
+  top: 200px;
 }
 
 .day-counter {
@@ -166,4 +180,74 @@ h1 {
 
 #day-counter-6 {
   bottom: 35%;
+}
+
+#day-9 {
+  padding: 10px 30px;
+  width: 200px;
+  text-align: center;
+  list-style-position: inside;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+
+.bottom-daftar-btn .btn {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: rgba(32, 111, 84, 0.8);
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.bottom-daftar-btn .btn:hover {
+  background-color: rgba(31, 70, 56, 0.8);
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+footer h2 {
+  font-family: "Advent Pro", sans-serif;
+  color: #0c6577;
+}
+
+footer img {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer .logo {
+  margin-right: 2.4rem;
+}
+
+footer .contact-icon {
+  margin-left: 2.4rem;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact-icon img {
+  height: 30px;
+}
+
+#mail-logo {
+  height: 26px;
+}
+
+#wa-logo {
+  height: 33px;
 }
