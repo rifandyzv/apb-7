@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/apb-7/static/css/main.ce3a9461.chunk.css",
+    "main.css": "/apb-7/static/css/main.965c49e5.chunk.css",
     "main.js": "/apb-7/static/js/main.878ddeee.chunk.js",
     "main.js.map": "/apb-7/static/js/main.878ddeee.chunk.js.map",
     "runtime-main.js": "/apb-7/static/js/runtime-main.db5456b6.js",
@@ -10,13 +10,13 @@
     "static/js/3.65f209de.chunk.js": "/apb-7/static/js/3.65f209de.chunk.js",
     "static/js/3.65f209de.chunk.js.map": "/apb-7/static/js/3.65f209de.chunk.js.map",
     "index.html": "/apb-7/index.html",
-    "static/css/main.ce3a9461.chunk.css.map": "/apb-7/static/css/main.ce3a9461.chunk.css.map",
+    "static/css/main.965c49e5.chunk.css.map": "/apb-7/static/css/main.965c49e5.chunk.css.map",
     "static/js/2.4904a587.chunk.js.LICENSE.txt": "/apb-7/static/js/2.4904a587.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db5456b6.js",
     "static/js/2.4904a587.chunk.js",
-    "static/css/main.ce3a9461.chunk.css",
+    "static/css/main.965c49e5.chunk.css",
     "static/js/main.878ddeee.chunk.js"
   ]
 }
