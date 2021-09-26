@@ -241,17 +241,13 @@ footer .contact-icon {
   justify-content: center;
 }
 
-footer .contact-icon img {
-  height: 1.5vw;
-  min-height: 20px;
+footer .contact-icon .contact-icon-logo {
+  font-size: clamp(20px, 2.8vw, 80px);
+  color: rgba(29, 94, 70, 0.8);
+  display: inline-block;
+  margin-right: 5px;
 }
 
-#mail-logo {
-  min-height: 18px;
-  height: 1.35vw;
-}
-
-#wa-logo {
-  height: 1.7vw;
-  min-height: 22px;
+footer .contact-icon .contact-icon-logo:hover {
+  color: rgba(20, 51, 40, 0.8);
 }

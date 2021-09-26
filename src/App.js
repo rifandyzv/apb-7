@@ -1,4 +1,7 @@
 import "./App.css";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaWhatsappSquare, FaLine } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 const FORM_LINK = "https://google.com";
 const INSTAGRAM_LINK = "https://www.instagram.com/hmif_itb/";
@@ -193,32 +196,16 @@ function App() {
           <h2>Contact Us</h2>
           <div className="contact-icon">
             <a href={INSTAGRAM_LINK}>
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/instagram.svg`}
-                alt="Logo APB"
-                id="instagram-logo"
-              />
+              <RiInstagramFill className="contact-icon-logo"></RiInstagramFill>
             </a>
             <a href={WA_LINK}>
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/whatsapp.svg`}
-                alt="Logo APB"
-                id="wa-logo"
-              />
+              <FaWhatsappSquare className="contact-icon-logo"></FaWhatsappSquare>
             </a>
             <a href={LINE_LINK}>
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/line.svg`}
-                alt="Logo APB"
-                id="line-logo"
-              />
+              <FaLine className="contact-icon-logo"></FaLine>
             </a>
             <a href={MAIL_LINK}>
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/mail.svg`}
-                alt="Logo APB"
-                id="mail-logo"
-              />
+              <MdMail className="contact-icon-logo"></MdMail>
             </a>
           </div>
         </div>
