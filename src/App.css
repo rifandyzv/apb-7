@@ -90,10 +90,6 @@ h1 {
   transform: translateX(-50%);
 }
 
-.bottom-daftar-btn {
-  top: 200px;
-}
-
 .day-counter {
   z-index: 99;
   position: absolute;
@@ -183,23 +179,27 @@ h1 {
 }
 
 #day-9 {
-  padding: 10px 30px;
-  width: 200px;
+  padding: 1vw 2vw;
+  width: 25vw;
   text-align: center;
   list-style-position: inside;
   left: 50%;
-  top: 50px;
+  top: 6vw;
   transform: translateX(-50%);
+}
+
+.bottom-daftar-btn {
+  top: 23vw;
 }
 
 .bottom-daftar-btn .btn {
   display: inline-block;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 1vw 2.5vw;
   text-decoration: none;
   background-color: rgba(32, 111, 84, 0.8);
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.75vw;
   border-radius: 10px;
 }
 
@@ -209,7 +209,7 @@ h1 {
 
 footer {
   position: absolute;
-  bottom: 15px;
+  bottom: 1.5vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -222,18 +222,19 @@ footer h2 {
 }
 
 footer img {
-  height: 70px;
+  height: 4vw;
   width: auto;
   display: inline-block;
-  margin: 0 10px;
+  margin-right: 1vw;
+  min-height: 35px;
 }
 
 footer .logo {
-  margin-right: 2.4rem;
+  margin-right: 2em;
 }
 
 footer .contact-icon {
-  margin-left: 2.4rem;
+  margin-left: 3em;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -241,13 +242,16 @@ footer .contact-icon {
 }
 
 footer .contact-icon img {
-  height: 30px;
+  height: 1.5vw;
+  min-height: 20px;
 }
 
 #mail-logo {
-  height: 26px;
+  min-height: 18px;
+  height: 1.35vw;
 }
 
 #wa-logo {
-  height: 33px;
+  height: 1.7vw;
+  min-height: 22px;
 }

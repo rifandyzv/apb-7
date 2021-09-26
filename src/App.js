@@ -1,8 +1,8 @@
 import "./App.css";
 
 const FORM_LINK = "https://google.com";
-const INSTAGRAM_LINK = "https://www.instagram.com";
-const WA_LINK = "https://whatsapp.com";
+const INSTAGRAM_LINK = "https://www.instagram.com/hmif_itb/";
+const WA_LINK = "https://chat.whatsapp.com/IEK2a1rAGTyLSH0Es7XyFc";
 const LINE_LINK = "https://line.me";
 const MAIL_LINK = "mailto:person@example.com";
 
