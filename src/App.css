@@ -132,6 +132,7 @@ h6 {
   left: 4%;
   top: 10%;
   padding: 2vw 0 0.5vw 2.5vw;
+  list-style-position: inside;
 }
 
 #day-counter-3 {
@@ -144,6 +145,7 @@ h6 {
   right: 5%;
   bottom: 25%;
   padding: 2vw 0 1vw 2.5vw;
+  list-style-position: inside;
 }
 
 #day-counter-4 {
@@ -156,6 +158,7 @@ h6 {
   left: 4%;
   top: 0;
   padding: 1.5vw 0 1vw 2.5vw;
+  list-style-position: inside;
 }
 
 #day-counter-5 {
@@ -168,6 +171,7 @@ h6 {
   right: 8%;
   bottom: 32%;
   padding: 1.8vw 0 2vw 2.5vw;
+  list-style-position: inside;
 }
 
 #day-counter-6 {

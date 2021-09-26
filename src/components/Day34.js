@@ -10,12 +10,11 @@ export default function Day34() {
 
       <div className="text-box" id="day3">
         <span>Pemrograman dasar [2] :</span>
-        <br />
-        <span>1. Perulangan</span>
-        <br />
-        <span>2. Array</span>
-        <br />
-        <span>3. Subprogram (fungsi dan prosedur)</span>
+        <ol>
+          <li>Perulangan</li>
+          <li>Array</li>
+          <li>Subprogram (fungsi dan prosedur)</li>
+        </ol>
       </div>
 
       <h2 className="day-counter" id="day-counter-3">
@@ -24,11 +23,10 @@ export default function Day34() {
 
       <div className="text-box" id="day4">
         <span>Fun Day :</span>
-        <br />
-        <span>1. Kriptografi + game</span>
-        <br />
-        <span>2. Keamanan Siber</span>
-        <br />
+        <ol>
+          <li>Kriptografi + game</li>
+          <li>Keamanan Siber</li>
+        </ol>
       </div>
 
       <h2 className="day-counter" id="day-counter-4">

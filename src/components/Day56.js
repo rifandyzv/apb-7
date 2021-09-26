@@ -9,16 +9,18 @@ export default function Day56() {
       />
 
       <div className="text-box" id="day5">
-        <span>1. Web Development [1] : HTML</span>
-        <br />
-        <span>2. UI/UX</span>
-        <br />
-        <span>3. Web Development [2] :</span>
-        <br />
-        <span>- CSS</span>
-        <br />
-        <span>- Javascript</span>
-        <br />
+        <ol>
+          <li>Web Development [1] : HTML</li>
+          <li>UI/UX</li>
+          <li>
+            Web Development [2] :
+            <br />
+            <span>- CSS</span>
+            <br />
+            <span>- Javascript</span>
+            <br />
+          </li>
+        </ol>
       </div>
 
       <h2 className="day-counter" id="day-counter-5">
@@ -26,10 +28,10 @@ export default function Day56() {
       </h2>
 
       <div className="text-box" id="day6">
-        <span>1. Game development</span>
-        <br />
-        <span>2. AI</span>
-        <br />
+        <ol>
+          <li>Game development</li>
+          <li>AI</li>
+        </ol>
       </div>
 
       <h2 className="day-counter" id="day-counter-6">
