@@ -242,7 +242,7 @@ footer .contact-icon {
 }
 
 footer .contact-icon .contact-icon-logo {
-  font-size: clamp(20px, 2.8vw, 80px);
+  font-size: clamp(30px, 2.8vw, 80px);
   color: rgba(29, 94, 70, 0.8);
   display: inline-block;
   margin-right: 5px;
