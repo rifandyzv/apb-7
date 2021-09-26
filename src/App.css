@@ -252,19 +252,26 @@ footer img {
 }
 
 footer .logo {
-  margin-right: 2em;
+  margin-right: 4vw;
 }
 
 footer .contact-icon {
-  margin-left: 3em;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+footer .contact {
+  margin-left: 4vw;
+}
+
+footer h2 {
+  margin-left: 0;
+}
+
 footer .contact-icon .contact-icon-logo {
-  font-size: clamp(30px, 2.8vw, 80px);
+  font-size: clamp(25px, 2.8vw, 80px);
   color: rgba(29, 94, 70, 0.8);
   display: inline-block;
   margin-right: 5px;
