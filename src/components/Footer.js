@@ -2,7 +2,12 @@ import React from "react";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaWhatsappSquare, FaLine } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
-import { INSTAGRAM_LINK, WA_LINK, LINE_LINK, MAIL_LINK } from "../constant";
+import {
+  INSTAGRAM_LINK,
+  WA_LINK,
+  LINE_LINK,
+  MAIL_LINK,
+} from "../constants/links";
 
 export default function Footer() {
   return (

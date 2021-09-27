@@ -1,6 +1,5 @@
 import React from "react";
-import { FORM_LINK } from "../constants/link";
-import "../App.css";
+import { FORM_LINK } from "../../constants/links";
 import "./Home.css";
 
 const Home = () => {

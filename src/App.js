@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
 import Day9 from "./components/Day9";
 import Day78 from "./components/Day78";

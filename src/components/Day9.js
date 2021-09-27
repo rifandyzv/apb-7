@@ -1,5 +1,5 @@
 import React from "react";
-import { FORM_LINK } from "../constant";
+import { FORM_LINK } from "../constants/links";
 
 export default function Day9() {
   return (
