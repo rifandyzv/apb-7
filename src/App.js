@@ -1,14 +1,10 @@
 import "./App.css";
-import { RiInstagramFill } from "react-icons/ri";
-import { FaWhatsappSquare, FaLine } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
 import Home from "./components/Home";
-
-const FORM_LINK = "https://google.com";
-const INSTAGRAM_LINK = "https://www.instagram.com/hmif_itb/";
-const WA_LINK = "https://chat.whatsapp.com/IEK2a1rAGTyLSH0Es7XyFc";
-const LINE_LINK = "https://line.me";
-const MAIL_LINK = "mailto:person@example.com";
+import Footer from "./components/Footer";
+import Day9 from "./components/Day9";
+import Day78 from "./components/Day78";
+import Day56 from "./components/Day56";
+import Day34 from "./components/Day34";
 
 function App() {
   return (
@@ -76,149 +72,13 @@ function App() {
       </section>
 
       {/* Day 3 - Day 4 */}
-      <section id="section4">
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/day3-4.png`}
-          alt="Background Section 4"
-        />
-
-        <div className="text-box" id="day3">
-          <span>Pemrograman dasar [2] :</span>
-          <br />
-          <span>1. Perulangan</span>
-          <br />
-          <span>2. Array</span>
-          <br />
-          <span>3. Subprogram (fungsi dan prosedur)</span>
-        </div>
-
-        <h2 className="day-counter" id="day-counter-3">
-          Day 3
-        </h2>
-
-        <div className="text-box" id="day4">
-          <span>Fun Day :</span>
-          <br />
-          <span>1. Kriptografi + game</span>
-          <br />
-          <span>2. Keamanan Siber</span>
-          <br />
-        </div>
-
-        <h2 className="day-counter" id="day-counter-4">
-          Day 4
-        </h2>
-      </section>
-
+      <Day34 />
       {/* Day 5 - Day 6 */}
-      <section id="section5">
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/day5-6.png`}
-          alt="Background Section 5"
-        />
+      <Day56 />
 
-        <div className="text-box" id="day5">
-          <span>1. Web Development [1] : HTML</span>
-          <br />
-          <span>2. UI/UX</span>
-          <br />
-          <span>3. Web Development [2] :</span>
-          <br />
-          <span>- CSS</span>
-          <br />
-          <span>- Javascript</span>
-          <br />
-        </div>
-
-        <h2 className="day-counter" id="day-counter-5">
-          Day 5
-        </h2>
-
-        <div className="text-box" id="day6">
-          <span>1. Game development</span>
-          <br />
-          <span>2. AI</span>
-          <br />
-        </div>
-
-        <h2 className="day-counter" id="day-counter-6">
-          Day 6
-        </h2>
-      </section>
-
-      {/* Day 7 - Day 8 */}
-      <section>
-        <h2 className="day-counter" id="day-counter-7">
-          Day 7
-        </h2>
-        <div className="text-box" id="day-7">
-          Tubes
-        </div>
-        <h2 className="day-counter" id="day-counter-8">
-          Day 8
-        </h2>
-        <div className="text-box" id="day-8">
-          Asistensi
-        </div>
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/day7-8.png`}
-          alt="Background Section 6"
-        />
-      </section>
-
-      {/* Day 9 - bawah*/}
-      <section>
-        <h2 className="day-counter" id="day-counter-9">
-          Day 9
-        </h2>
-        <div className="text-box" id="day-9">
-          <ol>
-            <li>Presentasi Tubes</li>
-            <li>Awarding Night</li>
-            <li>Penutupan</li>
-          </ol>
-        </div>
-        <div className="button-container bottom-daftar-btn">
-          <a className="btn" href={FORM_LINK}>
-            Daftar
-          </a>
-        </div>
-
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/day-9.png`}
-          alt="Background Section 7"
-        />
-      </section>
-
-      <footer>
-        <div className="contact">
-          <h2>Contact Us</h2>
-          <div className="contact-icon">
-            <a href={INSTAGRAM_LINK}>
-              <RiInstagramFill className="contact-icon-logo"></RiInstagramFill>
-            </a>
-            <a href={WA_LINK}>
-              <FaWhatsappSquare className="contact-icon-logo"></FaWhatsappSquare>
-            </a>
-            <a href={LINE_LINK}>
-              <FaLine className="contact-icon-logo"></FaLine>
-            </a>
-            <a href={MAIL_LINK}>
-              <MdMail className="contact-icon-logo"></MdMail>
-            </a>
-          </div>
-        </div>
-        <div className="logo">
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/APB Logo.png`}
-            alt="Logo APB"
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/STEI-HMIF-ITB-300x200 1.png`}
-            alt="Logo HMIF ITB"
-          />
-        </div>
-      </footer>
+      <Day78 />
+      <Day9 />
+      <Footer />
     </div>
   );
 }
