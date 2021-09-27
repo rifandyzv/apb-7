@@ -2,6 +2,7 @@ import "./App.css";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaWhatsappSquare, FaLine } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+import Home from "./components/Home";
 
 const FORM_LINK = "https://google.com";
 const INSTAGRAM_LINK = "https://www.instagram.com/hmif_itb/";
@@ -13,16 +14,7 @@ function App() {
   return (
     <div className="App">
       {/* Home */}
-      <section>
-        <div className="content">
-          <h1>Tes</h1>
-          <p>Haii</p>
-        </div>
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/atas_polos.png`}
-          alt="Background section 1"
-        />
-      </section>
+      <Home />
 
       {/* Apa itu APB */}
       <section id="section2">
