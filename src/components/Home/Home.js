@@ -7,7 +7,9 @@ const Home = () => {
     <section>
       <div className="content home">
         <div className="home-content">
-          <h1 className="">APB 7.0</h1>
+          <div className="title-container">
+            <h1 className="title">APB 7.0</h1>
+          </div>
           <div className="divider"></div>
           <p>Oktober 2021 - November 2021</p>
           <div className="home-btn-container">

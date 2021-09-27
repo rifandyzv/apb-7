@@ -5,15 +5,53 @@
   left: 25%;
 }
 
+@keyframes typing {
+  from,
+  95%,
+  to {
+    width: 0;
+  }
+
+  20% {
+    width: 100%;
+  }
+
+  80% {
+    width: 100%;
+  }
+}
+
+@keyframes caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #000;
+  }
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
 .home-content {
   text-align: center;
 }
 
-.home-content > h1 {
-  margin: 0;
+.title-container h1 {
   font-size: 4.6vw;
+  max-width: fit-content;
+  margin: 0 auto;
+  border-right: 0.5vw solid black;
+  white-space: nowrap;
+  overflow: hidden;
   -webkit-text-stroke-width: 0.25px;
   -webkit-text-stroke-color: #ffffff;
+
+  animation: caret 0.75s step-end infinite, typing 10s steps(15, end) infinite;
 }
 
 .home-content > p {
