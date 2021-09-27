@@ -1,0 +1,94 @@
+.home {
+  position: absolute;
+  width: 50%;
+  top: 40%;
+  left: 25%;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-content > h1 {
+  margin: 0;
+  font-size: 4.6vw;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.home-content > p {
+  font-size: 2.6vw;
+  font-weight: bold;
+}
+
+.divider {
+  width: 100%;
+  max-width: 600px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  margin: 1rem auto;
+}
+
+.home-btn-container {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.home-btn {
+  padding: 1vw 2.5vw;
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: bold;
+  color: black;
+
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.home-btn:hover {
+  background: rgb(238, 238, 238, 0.8);
+}
+
+.sun {
+  position: absolute;
+  top: 0%;
+  left: 11%;
+  width: 20%;
+}
+
+.right-island {
+  position: absolute;
+  height: 500%;
+  width: auto;
+  right: 0;
+  top: 5%;
+}
+
+.left-island {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 10%;
+  left: -50%;
+}
+
+.ships {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  top: 3%;
+  left: 0%;
+}
+
+@media (max-width: 720px) {
+  .divider {
+    margin: 0.5rem auto;
+    height: 0.6vh;
+  }
+
+  .home-btn-container {
+    margin: 1rem auto;
+  }
+}
