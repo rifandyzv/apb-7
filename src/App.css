@@ -180,34 +180,29 @@ h6 {
 
 #day-7 {
   width: 20vw;
-  left: 4%;
-  top: 4vw;
-  padding: 1.5vw 0 1vw 2.5vw;
+  left: 50%;
+  top: 15vw;
+  padding: 1.5vw 0 1vw 0;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 #day-counter-7 {
-  top: 5vw;
+  top: 10vw;
 }
 
 #day-8 {
-  width: 20vw;
-  right: 8%;
-  top: 23vw;
-  padding: 1.5vw 0 1vw 2.5vw;
+  width: 22vw;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 36vw;
+  padding: 1.5vw 0 1vw 0;
+  text-align: center;
+  list-style-position: inside;
 }
 
 #day-counter-8 {
-  top: 24vw;
-}
-
-#day-9 {
-  padding: 1vw 2vw;
-  width: 25vw;
-  text-align: center;
-  list-style-position: inside;
-  left: 50%;
-  top: 6vw;
-  transform: translateX(-50%);
+  top: 31vw;
 }
 
 .bottom-daftar-btn {
@@ -221,8 +216,9 @@ h6 {
   text-decoration: none;
   background-color: rgba(32, 111, 84, 0.8);
   color: #fff;
-  font-size: 1.75vw;
+  font-size: 2.5vw;
   border-radius: 10px;
+  transition: 150ms ease-in-out;
 }
 
 .bottom-daftar-btn .btn:hover {
