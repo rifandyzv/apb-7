@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-export default function Day34() {
+export default function Day12() {
   return (
     <section id="section3">
       <h1 className="timeline">Timeline</h1>
@@ -38,5 +38,5 @@ export default function Day34() {
         alt="Background Section 3"
       />
     </section>
-  )
+  );
 }
