@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Day78() {
   return (
@@ -7,14 +7,17 @@ export default function Day78() {
         Day 7
       </h2>
       <div className="text-box" id="day-7">
-        Asistensi
+        <ol>
+          <li>Hands on</li>
+          <li>Asistensi</li>
+        </ol>
       </div>
       <h2 className="day-counter" id="day-counter-8">
         Day 8
       </h2>
       <div className="text-box" id="day-8">
         <ol>
-          <li>Presentasi Tubes</li>
+          <li>Presentasi</li>
           <li>Awarding Night</li>
           <li>Penutupan</li>
         </ol>
@@ -24,5 +27,5 @@ export default function Day78() {
         alt="Background Section 6"
       />
     </section>
-  );
+  )
 }
