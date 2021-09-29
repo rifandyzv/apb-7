@@ -5,15 +5,53 @@
   left: 25%;
 }
 
+@keyframes typing {
+  from,
+  95%,
+  to {
+    width: 0;
+  }
+
+  20% {
+    width: 100%;
+  }
+
+  80% {
+    width: 100%;
+  }
+}
+
+@keyframes caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #000;
+  }
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
 .home-content {
   text-align: center;
 }
 
-.home-content > h1 {
-  margin: 0;
+.title-container h1 {
   font-size: 4.6vw;
+  max-width: fit-content;
+  margin: 0 auto;
+  border-right: 0.5vw solid black;
+  white-space: nowrap;
+  overflow: hidden;
   -webkit-text-stroke-width: 0.25px;
   -webkit-text-stroke-color: #ffffff;
+
+  animation: caret 0.75s step-end infinite, typing 10s steps(15, end) infinite;
 }
 
 .home-content > p {
@@ -57,13 +95,27 @@
   left: 11%;
   width: 20%;
 }
-
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-5px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+}
 .right-island {
   position: absolute;
   height: 500%;
   width: auto;
   right: 0;
   top: 5%;
+  animation: float 3s ease-in-out infinite;
 }
 
 .left-island {
@@ -72,6 +124,8 @@
   height: auto;
   top: 10%;
   left: -50%;
+  /* width: 150px; */
+  animation: float 3s ease-in-out infinite;
 }
 
 .ships {
