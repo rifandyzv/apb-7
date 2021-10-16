@@ -1,5 +1,5 @@
 import React from "react";
-import { FORM_LINK } from "../../constants/links";
+// import { FORM_LINK } from "../../constants/links";
 import "./Home.css";
 
 const Home = () => {
@@ -12,11 +12,7 @@ const Home = () => {
           </div>
           <div className="divider"></div>
           <p>Oktober 2021 - November 2021</p>
-          <div className="home-btn-container">
-            <a className="home-btn" target="blank" href={FORM_LINK}>
-              DAFTAR
-            </a>
-          </div>
+          <div className="home-btn-container"></div>
         </div>
         <img
           className="left-island"

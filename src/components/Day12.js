@@ -13,6 +13,15 @@ export default function Day12() {
         <span>3. Keinformatikaan dalam kehidupan sehari-hari</span>
         <br />
         <span>4. Computational thinking</span>
+        <br />
+        Link Rekaman :{" "}
+        <a
+          href="https://drive.google.com/drive/folders/1hzhps_VK0uZX8LUWzfae_QProAdT01k7?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Klik disini
+        </a>
       </div>
 
       <h2 className="day-counter" id="day-counter-1">
