@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Day12() {
   return (
@@ -38,5 +38,5 @@ export default function Day12() {
         alt="Background Section 3"
       />
     </section>
-  )
+  );
 }

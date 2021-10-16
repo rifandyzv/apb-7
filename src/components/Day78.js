@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Day78() {
   return (
@@ -7,18 +7,25 @@ export default function Day78() {
         Day 7
       </h2>
       <div className="text-box" id="day-7">
-        Tubes
+        <ol>
+          <li>Hands on</li>
+          <li>Asistensi</li>
+        </ol>
       </div>
       <h2 className="day-counter" id="day-counter-8">
         Day 8
       </h2>
       <div className="text-box" id="day-8">
-        Asistensi
+        <ol>
+          <li>Presentasi</li>
+          <li>Awarding Night</li>
+          <li>Penutupan</li>
+        </ol>
       </div>
       <img
         src={`${process.env.PUBLIC_URL}/assets/day7-8.png`}
         alt="Background Section 6"
       />
     </section>
-  );
+  )
 }
