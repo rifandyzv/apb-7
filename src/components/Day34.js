@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Day34() {
   return (
@@ -15,6 +15,14 @@ export default function Day34() {
           <li>Array</li>
           <li>Subprogram (fungsi dan prosedur)</li>
         </ol>
+        Link Rekaman :{' '}
+        <a
+          href="https://drive.google.com/drive/folders/1g4ggrsrInweKLRyq8OLzOFmPOblgkjba?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Klik disini
+        </a>
       </div>
 
       <h2 className="day-counter" id="day-counter-3">
@@ -27,11 +35,19 @@ export default function Day34() {
           <li>Kriptografi + game</li>
           <li>Keamanan Siber</li>
         </ol>
+        Link Rekaman :{' '}
+        <a
+          href="https://drive.google.com/drive/folders/13hv7jl2i77wq-xB71D3h7IuLqT6oe6KK?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Klik disini
+        </a>
       </div>
 
       <h2 className="day-counter" id="day-counter-4">
         Day 4
       </h2>
     </section>
-  );
+  )
 }
