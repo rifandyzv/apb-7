@@ -128,10 +128,10 @@ h6 {
 }
 #day3 {
   width: 30%;
-  height: 27%;
+  height: 25%;
   left: 4%;
   top: 6%;
-  padding: 2vw 0 0.5vw 2.5vw;
+  padding: 1vw 0 0.5vw 2.5vw;
   list-style-position: inside;
 }
 
@@ -144,7 +144,7 @@ h6 {
   height: 22%;
   right: 5%;
   bottom: 28%;
-  padding: 2vw 0 1vw 2.5vw;
+  padding: 1.5vw 0 1vw 2.5vw;
   list-style-position: inside;
 }
 
@@ -154,9 +154,9 @@ h6 {
 
 #day5 {
   width: 28%;
-  height: 35%;
+  height: 40%;
   left: 4%;
-  top: 0;
+  bottom: 65%;
   padding: 1.5vw 0 1vw 2.5vw;
   list-style-position: inside;
 }

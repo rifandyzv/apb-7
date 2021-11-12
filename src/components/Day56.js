@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Day56() {
   return (
@@ -21,6 +21,14 @@ export default function Day56() {
             <br />
           </li>
         </ol>
+        Link Rekaman :{' '}
+        <a
+          href="https://drive.google.com/drive/folders/1lfCbF6Etx3rG15-_F8DWKnko2lFqeRmk?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Klik disini
+        </a>
       </div>
 
       <h2 className="day-counter" id="day-counter-5">
@@ -38,5 +46,5 @@ export default function Day56() {
         Day 6
       </h2>
     </section>
-  );
+  )
 }
