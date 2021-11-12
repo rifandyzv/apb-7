@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Day12() {
   return (
@@ -14,7 +14,7 @@ export default function Day12() {
         <br />
         <span>4. Computational thinking</span>
         <br />
-        Link Rekaman :{" "}
+        Link Rekaman :{' '}
         <a
           href="https://drive.google.com/drive/folders/1hzhps_VK0uZX8LUWzfae_QProAdT01k7?usp=sharing"
           target="_blank"
@@ -36,6 +36,15 @@ export default function Day12() {
         <span>2. Input-output</span>
         <br />
         <span>3. Percabangan</span>
+        <br />
+        Link Rekaman :{' '}
+        <a
+          href="https://drive.google.com/drive/folders/15WrEsUhC-cnpVW0n1-4s_Fcz7VF8D2xi?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Klik disini
+        </a>
       </div>
 
       <h2 className="day-counter" id="day-counter-2">
@@ -47,5 +56,5 @@ export default function Day12() {
         alt="Background Section 3"
       />
     </section>
-  );
+  )
 }
